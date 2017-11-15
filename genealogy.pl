@@ -13,7 +13,6 @@ parent(john, pat).
 parent(pat,jacob).
 parent(eve,lisa).
 parent(carol,jacob).
-
 grandPa(X,Y) :- parent(X,Z),parent(Z,Y).
 
 
